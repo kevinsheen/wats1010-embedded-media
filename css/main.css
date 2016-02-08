@@ -4,7 +4,187 @@
  *
  * Site Styles
  *****************************************************************************/
+html {
+	padding: 0;
+}
+body {
+	margin: 0;
+}
+header {
+	min-height: 400px; 
+	background-image: url('../img/monkaa_title.jpg');
+	background-repeat: no-repeat;
+	background-position: center center; 
+	background-size: cover;
+	padding-top: 40px;
+	text-shadow:0px 5px 10px rgba(0, 0, 0, 0.75);
+	
+}
+#social {
+	background: dodgerblue;
+	position: absolute;
+	top: 50px;
+	right: 0;
+	width: 45px;
+	transition: 2s width;
+	box-shadow: 0px 0px 10px #fff;
+	text-align: center; 
+	text-shadow:0px 5px 10px rgba(0, 0, 0, 0.75);
+}
+#social:hover {
+	width: 250px; 
+}
+#social ul {
+	list-style-type: none;
+	padding: 0;
+}
+#social li {
+	margin: 0;
+	padding: 0;
+}
+h2 {
+  font-family:'AirstreamRegular', georgian, 'Times New Roman', serif;
+  color:#FFD700;
+  font-size:35px;
+  text-shadow:0px 5px 10px rgba(0, 0, 0, 0.75);
+}
 
- html {
-     color: green;
- }
+.subtitle {
+	padding-left: 450px; 
+	padding-top: 50px; 
+	text-decoration: underline;
+	font-weight: bold;
+	text-shadow:0px 5px 10px rgba(0, 0, 0, 0.75);
+	color: #FFD700;
+}
+.main-nav {
+	padding: 1.5px; 
+	margin: 1.5px;
+	list-style-type: none; 
+	color: #424242;
+        font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+	letter-spacing:0.1em;
+	text-transform: lowercase;
+	line-height: 145%;
+	font-size: 14pt;
+	font-variant: small-caps;
+	font-weight: bold;
+	padding-top: 60px;
+}
+.social-links {
+	font-weight: bold; 
+	color: #424242;
+        font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+	letter-spacing:0.1em;
+	text-align:center;
+	margin: 40px auto;
+	text-transform: lowercase;
+	line-height: 145%;
+	font-size: 14pt;
+	font-variant: small-caps;
+}
+video {
+	border: 7px solid black;
+	
+}
+
+audio {
+	border: 7px solid black; 
+	 color: #424242;
+        font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+	letter-spacing:0.1em;
+	text-align:center;
+	margin: 0px auto;
+	text-transform: lowercase;
+	line-height: 145%;
+	font-size: 14pt;
+	font-variant: small-caps;
+}
+.lead {
+    color: #FFD700;
+        font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+	letter-spacing:0.1em;
+	text-align:center;
+	margin: 40px auto;
+	text-transform: lowercase;
+	line-height: 145%;
+	font-size: 14pt;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+.weybec-people {
+	list-style-type: none;
+	text-align: center; 
+	color: #FFD700; 
+}
+
+#pratik {
+	border: 5px solid black;
+	
+}
+#nita {
+	 border: 5px solid black; 
+}
+#niyal {
+	border: 5px solid black;
+}
+
+.download-button {
+	 color: #424242;
+        font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+	letter-spacing:0.1em;
+	text-align:center;
+	margin: 40px auto;
+	text-transform: lowercase;
+	line-height: 145%;
+	font-size: 16pt;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+h3 {
+	 color: #424242;
+        font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+	letter-spacing:0.1em;
+	text-align:center;
+	margin: 10px auto;
+	text-transform: lowercase;
+	line-height: 145%;
+	font-size: 14pt;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+footer {
+	background-image: url('../img/monkey_crystal.jpg'); 
+	background-size: cover; 
+	background-position: center center; 
+	 color: #FFD700;
+        font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+	letter-spacing:0.1em;
+	margin: 0px auto;
+	text-transform: lowercase;
+	line-height: 145%;
+	font-size: 14pt;
+	font-variant: small-caps;
+	font-weight: bold;
+	text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.75);
+	padding-bottom: 70px;
+}
+#watch {
+	background-image: url('../img/monkey_flight.jpg');
+	padding-top: 27px;
+}
+#listen {
+	background-image: url('../img/monkey_flight.jpg');
+	background-position: center bottom; 
+	margin-top: -27px;
+	padding-bottom: 0px; 
+	
+}
+#about {
+	background-image: url('../img/monkey_flight.jpg');
+	margin-top: -29px;
+	margin-bottom: -16px; 
+	padding-top: 0px; 
+	padding-bottom: 10px; 
+}
